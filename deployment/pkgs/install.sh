@@ -233,6 +233,12 @@ python setup.py install
 cd -
 rm -rf ./django-discover-runner-0.4
 
+# Web APIs for Django, made easy.
+tar xvzf djangorestframework-2.3.5.tar.gz
+cd djangorestframework-2.3.5
+python setup.py install
+cd -
+rm -rf ./djangorestframework-2.3.5
 
 cd ../
 
